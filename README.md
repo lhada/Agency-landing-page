@@ -1,7 +1,7 @@
 # Agency landing page
-These was a good training with inline,block and block-inline, all the website was building by pure HTML and CSS and without using any library plus without using flex, grid, mutli-column, or table-layout just positioning, margins, paddings, and the display property./
-Responsive for all devices using media queries./
-It was a design and I convert it to a code./
+These was a good training with inline,block and block-inline, all the website was building by pure HTML and CSS and without using any library plus without using flex, grid, mutli-column, or table-layout just positioning, margins, paddings, and the display property.\
+Responsive for all devices using media queries.\
+It was a design and I convert it to a code.\
 
 
 # Why
