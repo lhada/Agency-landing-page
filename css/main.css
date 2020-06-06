@@ -1379,12 +1379,7 @@ footer .copyright {
 
 
 
-
-
-
-
-
-@media only screen and (min-width:1100px) { 
+@media only screen and (min-width:900px) { 
     .col {
         max-width: 90%;
 
@@ -1415,6 +1410,500 @@ footer .copyright {
         display: inline-block;
         color: black;
         background-color: transparent;
+        margin:20px 10px;
+    }
+    header .hum {
+        display: none;
+    }
+
+    header ul li {
+        display: inline;
+    }
+    header nav ul li a{
+        width: 60px; 
+        display: inline-block;
+        color: black;
+        transition: border 0.1s;
+        border-bottom: 0px solid #27DEBF;
+        font-size: 14px;
+    }
+
+    header nav ul li a:hover{
+        border-bottom: 2px solid #27DEBF;
+        background-color: transparent;
+    }
+
+
+
+    main {
+        position: relative;
+        margin-top: 60px;
+    }
+    /* head box button */
+    .head-box {
+        position: relative;
+        margin-top: 140px;
+        margin-bottom: 180px;
+        left: 0px;
+        width: 600px;
+        text-align: left;
+    }
+
+    .head-box .welcome .title {
+        font-size: 50px;
+        font-weight: 0;
+        margin-bottom: 40px;
+    }
+
+    .head-box .welcome .text {
+        font-size: 23px;
+        font-weight: 0;
+    }
+
+    .head-box .welcome .buttons a {
+        display: inline-block;
+        width: 140px;
+        text-align: center;
+    }
+
+    .design {
+        display: block;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        height: 1200px;
+        width: 100%;
+        background: url(../images/head-back.png) no-repeat right -250px top -250px/contain;
+    }
+
+    .background-small_shapes {
+        opacity: 0.3;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background: url(../images/shapes-background.png) no-repeat right 90px top 100px/contain;
+
+    }
+
+    .right-shape {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: url(../images/illu.png) no-repeat right 10px top 180px/330px;
+        height: 600px;
+        width: 100%;
+    }
+
+
+    .why_us-box {
+        position: relative;
+    }
+
+    .why_us-box .col {
+        width: 98%;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .why_us-box .col .row {
+        display: inline-block;
+        margin: 0;
+        width: 360px;
+    }
+
+    .why_us-box .col .image {
+        position: relative;
+        top: 40px;
+    }
+
+    .why_us-box .col .image .circle {
+        position: absolute; 
+        left:-20px;
+    }
+
+    .why_us-box .col .image img {
+        max-width: 370px;
+        width: 370px;
+    }
+    .why_us-box .col .image .points {
+        position: absolute;
+        z-index: -222;
+        left: 170px;
+    }
+
+
+    .why_us-box .col .why_hire_us-box {
+        position: relative;
+        margin: 0px 40px;
+        margin-top: -40px;
+        width: 290px;
+        text-align: left;
+    }
+    .why_us-box .col .why_hire_us-box .h3 {
+        margin-bottom: 20px;
+    }
+    .why_us-box .col .why_hire_us-box .button-in-final-section {
+        margin-top: 40px;
+    }
+
+
+    .my_services-box {
+        text-align: center;
+    }
+    .my_services-box .h3 {
+        margin-bottom: 80px;
+    }
+    .my_services-box .h3 p{
+        text-align: center;
+    }
+
+    .my_services-box .col {
+        max-width: 90%;
+        width: 90%;
+    }
+
+    .my_services-box .col .row {
+        display: inline-block;
+        z-index: 777;
+    }
+
+    .my_services-box .col .vertical-card {
+        width: 300px;
+        height: 350px;
+        margin:0px 100px 0px 0px;
+        padding: 0px 40px;
+        box-sizing: border-box;
+    }
+    .my_services-box .col .horizontal-card {
+        position: relative;
+        top: -80px;
+        width: 350px;
+        padding: 20px 30px;
+        box-sizing: border-box;
+    }
+
+    .my_services-box .col .horizontal-card .percentage_num p{
+        font-size: 30px;
+    }
+
+    .my_services-box .col .horizontal-card .field p{
+        font-size: 20px;
+    }
+
+    .my_services-box .middle {
+        position: relative;
+        left: 0px;
+    }
+
+    .my_services-box .middle .vertical-card {
+        margin:0px 0px 0px 95px;
+    }
+    .my_services-box .middle .row{
+        margin-top: -150px;
+
+    }
+    .my_services-box .before-last {
+        position: relative;
+        left: 0px;
+    }
+    .my_services-box .before-last .row{
+        margin-top: -150px;
+
+    }
+
+    .my_services-box .button-in-final-section {
+        position: relative;
+        top: 0px;
+        margin: 0 auto;
+    }
+
+    .my_services-box .col .row  div.icon {
+        margin: 0;
+    }
+    .my_services-box .col  .row .col{
+        margin: 0;
+    }
+
+    .my_services-box .underline-three_bars,
+    .my_services-box .underline-three_bars_white {
+        margin: 0;
+        text-align: left;
+    }
+
+    .my_services-box .col .row .col {
+        margin: 10px 0px;
+    }
+
+    .my_services-box .col .row .button-card {
+        position: relative;
+        left: -25px;
+        margin: 0 0;
+        padding: 0;
+    }
+    .my_services-box .col .row div.button-card a{
+        margin: 0;
+        padding: 10px 20px;
+        text-align: left;
+    }
+    .my_services-box {
+        position: relative;
+    }
+
+
+
+
+
+    .portfolio-box {
+        position: relative;
+        top: 0px;
+        text-align: center;
+        margin: 40px 0px;
+    }
+    .portfolio-box .h3 p, .portfolio-box .h2 p{
+        text-align: center;
+    }
+
+    .portfolio-box .col {
+        max-width: 100%;
+        margin: 10px auto;
+    }
+    .portfolio-box .col .row {
+        display: inline-block;
+        margin: 15px 5px;
+    }
+
+    .portfolio-box .button-in-final-section {
+        margin-top: 40px;
+    }
+
+
+
+
+    .testmonials-box p {
+        text-align: center;
+    }
+    .testmonials-box .h3 p, .testmonials-box .h2 p{
+        text-align: center;
+    }
+
+
+
+
+    .blog-box {
+        position: relative;
+        margin: 60px 0px;
+    }
+
+    .blog-box p { 
+        position: relative;
+        z-index: 230;
+        text-align: center;
+    }
+
+    .blog-box h3,.blog-box h2 { 
+        position: relative;
+        z-index: 240;
+        text-align: center;
+    }
+
+
+    .blog-box .col {
+        display: inline;
+        max-width: 100%;
+        margin:  0 auto;
+    }
+
+
+    .blog-box .col .center {
+        position: relative;
+        z-index: 230;
+        display: inline;
+        margin: 0 auto;
+    }
+    .blog-box .col .row {
+        position: relative;
+        z-index: 230;
+        max-width: 30%;
+        width: 30%;
+        display: inline-block;
+        margin: 10px 10px;
+    }
+    .blog-box .button-in-final-section {
+        position: relative;
+        display: block;
+        margin-top: 40px;
+        z-index: 239;
+
+    }
+    .blog-box .back-shape {
+        z-index: 229;
+        display: block;
+        position: absolute;
+        right: 0px;
+        top: -150px;
+        height:900px;
+        width: 900px;
+        background: url(../images/head-back.png) no-repeat right -110px top -30px/contain;
+    }
+
+    .blog-box .card-blog{
+        position: relative;
+        z-index: 240;
+        background: white;
+    }
+
+    .contact-box {
+        margin: 0px 0px;
+        margin-bottom: 40px;
+    }
+    .contact-box p{
+        text-align: center;
+    }
+    .contact-box .col {
+       max-width: 90%;
+       width: 90%;
+    }
+
+    .contact-box .points {
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+        background: url(../images/contact-points.png);
+        height: 200px;
+        width: 80px;
+    }
+
+    .contact-box .input-box {
+        display: inline-block;
+        width: 300px;
+        margin: 5px 20px;
+    }
+    .contact-box form input, .contact-box select {
+        display: inline-block;
+        padding: 15px 12px;
+    }
+
+    .contact-box .textarea-input-box {
+        width: 640px;
+    }
+
+    .contact-box form label {
+        position: absolute;
+        top: 21px;
+    }
+    .contact-box form .input-box input:active + label,
+    .contact-box form .input-box input:focus + label {
+        position: absolute;
+        top: 9px;
+    }
+
+    .contact-box .submit {
+        margin: 20px auto;
+    }
+
+    .contact-box .submit .button button{
+        padding: 10px 30px;
+    }
+
+    .contact-box {
+        position: relative;
+    }
+    .contact-box .map-shape {
+        position: absolute;
+        top: -40px;
+        background: url(../images/map.png) no-repeat center;
+        height: 300px;
+        width: 100%;
+    }
+
+
+
+
+
+
+
+    footer {
+        border-top:none;
+        color: black;
+        padding: 0px;
+    }
+    
+    footer .col {
+        max-width: 100%;
+    }
+    
+    footer .text {
+        padding: 0;
+    }
+    
+    footer .color_text {
+        font-weight: 400;
+    }
+    
+    
+    footer .header_f {
+        color: #27DEBF;
+        padding: 0;
+    }
+    
+    footer .footer_b {
+        padding: 0;
+    }
+    
+    footer .color_text {
+        position: relative;
+        left: 100px;
+        width: 360px;
+    }
+
+    footer .footer-left {
+        position: relative;
+        left: -100px;
+    }
+
+
+    footer .we {
+        margin: 0;
+        padding: 0;
+    }
+    .footer-left {
+        width: 300px;
+    }
+
+    footer .col .row {
+        display: inline-block;
+    }
+    
+
+    footer .copyright {
+        position: relative;
+        top: 30px;
+        padding: 20px 0px;
+        border-top: 1px solid #27DEBF;
+        margin: 10px 0px;
+    }
+    .copyright p {
+        text-align: center;
+    }
+    
+    footer .footer_b {
+        padding: 0px 10px;
+    }
+
+    footer .c {
+        position: relative;
+        top: 16px;
+    }
+}
+
+
+@media only screen and (min-width:1050px) { 
+    header nav{
+        position: absolute;
+        right: 20px;
+        display: inline-block;
+        color: black;
+        background-color: transparent;
         margin:20px;
     }
     header .hum {
@@ -1430,6 +1919,7 @@ footer .copyright {
         color: black;
         transition: border 0.1s;
         border-bottom: 0px solid #27DEBF;
+        font-size: 16px;
     }
 
     header nav ul li a:hover{
@@ -1575,14 +2065,14 @@ footer .copyright {
         width: 300px;
         height: 350px;
         margin:0px 100px 0px 0px;
-        padding: 20px 40px;
+        padding: 0px 40px;
         box-sizing: border-box;
     }
     .my_services-box .col .horizontal-card {
         position: relative;
         top: -80px;
         width: 350px;
-        padding: 40px 30px;
+        padding: 20px 30px;
         box-sizing: border-box;
     }
 
@@ -1899,4 +2389,3 @@ footer .copyright {
         top: 16px;
     }
 }
-
